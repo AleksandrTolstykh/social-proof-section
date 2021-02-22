@@ -1,0 +1,130 @@
+body {
+  background:
+    url("../images/bg-pattern-top-desktop.svg") left top no-repeat,
+    url("../images/bg-pattern-bottom-desktop.svg") right bottom no-repeat;
+  font-family: "Spartan";
+}
+
+h1 {
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+}
+
+.row {
+  padding: 7%;
+}
+
+.header-width {
+  padding: 0 130px 0 7%;
+}
+
+.description {
+  color: hsl(303, 10%, 53%);
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.rate {
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 10px;
+  color: hsl(300, 43%, 22%);
+  font-size: 15px;
+  font-weight: 700;
+  margin: 20px;
+  padding: 10px;
+  width: 70%;
+}
+
+.rate-middle {
+  margin-left: 60px;
+}
+
+.rate-bottom {
+  margin-left: 100px;
+}
+
+.rate-message {
+  display: inline;
+  margin-left: 30px;
+}
+
+.star {
+  margin: 5px;
+}
+
+.card {
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 15px;
+  margin: 50px 18% 20px;
+  width: 90%;
+}
+
+.card-padding {
+  padding: 20px;
+}
+
+.testimonial-middle {
+  margin-top: 20px;
+}
+
+.testimonial-right {
+  margin-top: 40px;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 70%;
+}
+
+.testimonial-name {
+  color: hsl(0, 0%, 100%);
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.testimonial-status {
+  color: hsl(333, 80%, 67%);
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.testimonial-text {
+  color: hsl(300, 24%, 96%);
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 991px) {
+  h1, .description, .star-container {
+    text-align: center;
+  }
+
+  .rate {
+    width: auto;
+  }
+
+  .rate-middle, .rate-bottom {
+    margin-left: 20px;
+  }
+
+  .rate-message {
+    display: block;
+  }
+
+  .card {
+    margin: 50px 20px 20px;
+  }
+
+  .testimonial-middle, .testimonial-right {
+    margin-top: 0;
+  }
+}
